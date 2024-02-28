@@ -89,3 +89,29 @@ const PRODUCTS = [
 export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
 }
+
+// import Hello from "./assets/Hello"
+// import Contact from "./assets/Contact";
+// import Counter from "./assets/Counter";
+
+// function App() {
+//   const helloData = [
+//     // {name: 'Rachapruek' , message: 'Hi there'} ,
+//     // {name: 'Tom' ,message: 'Hello....'},
+
+//     {contagoty: "Fruits" , price:"$1" ,stocked: true ,name:"Apple"}
+//   ];
+
+//   return (
+//     <div className="App">
+//       <Counter />
+//       {helloData.map((data , index) => (
+//         <Hello key={index} name={data.name} message={data.message}/>
+//       ))}
+
+//       <Contact email="Rachapruek@gmail.com" phone="0987654321"/>
+//     </div>
+//   )
+// }
+
+// export default App
